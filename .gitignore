@@ -1,0 +1,19 @@
+# Binaries
+*.exe
+*.out
+*.dll
+*.so
+
+# Go build files
+/bin/
+/pkg/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
