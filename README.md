@@ -129,6 +129,6 @@ This project was built as part of my personal learning path and internship to:
 ---
 
 ## 🧑‍💻 Author
-Mohammad Saleh Sohrabi and Amir Ali Sohrabi
+Mohammad Saleh Sohrabi
 - 📧 anseva.sohrabi11@gmail.com
 
