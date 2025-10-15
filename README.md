@@ -92,4 +92,43 @@ go run main.go
   | PUT    | `/articles/{id}` | Update an article    |
   | DELETE | `/articles/{id}` | Delete an article    |
 
+---
+## 📬 Example Request (Create Article)
+- POST ```/articles```
+  
+  ```
+  {
+  "title": "Learning Golang REST API",
+  "body": "Golang is powerful and simple to use!",
+  "user_id": 1
+  }
+  ```
+- Response:
+
+  ```
+  {
+    "ID": 3,
+    "title": "Learning Golang REST API",
+    "body": "Golang is powerful and simple to use!",
+    "user_id": 1,
+    "user": {
+      "ID": 1,
+      "full_name": "Mohammad",
+      "email": "mohammad@gmail.com"
+    }
+  }
+  ```
+---
+## 🧠 Learning Goals
+This project was built as part of my personal learning path and internship to:
+- Understand REST API design in Golang
+- Work with GORM and relational databases
+- Learn MVC-style structuring
+- Use Postman for testing API endpoints
+
+---
+
+## 🧑‍💻 Author
+Mohammad Saleh Sohrabi and Amir Ali Sohrabi
+- 📧 anseva.sohrabi11@gmail.com
 
